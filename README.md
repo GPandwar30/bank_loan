@@ -1,92 +1,85 @@
-📊 Bank Loan Analysis Dashboard (Power BI)
-📌 Project Overview
+💳 Bank Loan Analysis Dashboard
+📊 Power BI | Financial Analytics | Business Intelligence
+🌟 Project Snapshot
 
-This project presents an end-to-end Bank Loan Analysis Dashboard built using Power BI, aimed at analyzing loan performance, customer behavior, and financial risk. The dashboard helps stakeholders track loan applications, funded amounts, repayments, interest rates, and loan quality (Good vs Bad loans) through interactive visuals and KPIs.
+An interactive Power BI dashboard designed to analyze bank loan performance, risk, and customer behavior.
+This project transforms raw loan data into actionable insights using KPIs, trend analysis, and drill-down visuals to support data-driven financial decisions.
 
-The project focuses on business intelligence, financial analytics, and decision support using real-world banking metrics.
+📌 Ideal for showcasing Data Analyst / Business Analyst skills
 
-🎯 Objectives
+🎯 Key Goals
 
-Analyze overall loan performance and trends
+✔ Understand overall loan performance
+✔ Track Good vs Bad Loan quality
+✔ Monitor MTD & MoM growth trends
+✔ Analyze Interest Rate & DTI risk
+✔ Provide interactive, filter-driven insights
 
-Monitor Good Loan vs Bad Loan distribution
+🧰 Tech Stack
+Tool	Purpose
+🟡 Power BI Desktop	Dashboard & Visualization
+🧮 DAX	KPI calculations & measures
+🧹 Power Query	Data cleaning & transformation
+📊 BI Concepts	KPIs, MTD, MoM, Drill-downs
+📈 Business KPIs
 
-Track Month-to-Date (MTD) and Month-over-Month (MoM) growth
+✨ At-a-Glance Performance Metrics
 
-Identify risk using Interest Rate and Debt-to-Income (DTI) metrics
+Metric	Value
+📝 Total Loan Applications	38.6K
+💰 Total Funded Amount	$435.8M
+💵 Total Amount Received	$473.1M
+📉 Avg Interest Rate	12%
+📊 Avg DTI	13.3%
+🟢 vs 🔴 Loan Quality
+🟢 Good Loans — 86%
 
-Enable decision-making through interactive filters and drill-downs
+📂 Applications: 33K
 
-🛠 Tools & Technologies
+💰 Funded Amount: $370M
 
-Power BI Desktop
+💵 Amount Received: $436M
 
-Data Modeling & DAX
+🔴 Bad Loans — 14%
 
-Data Cleaning & Transformation
+📂 Applications: 5K
 
-Interactive Dashboards & KPIs
+💰 Funded Amount: $66M
 
-📈 Key KPIs & Metrics
+💵 Amount Received: $37M
 
-Total Loan Applications: 38.6K
-
-Total Funded Amount: $435.8M
-
-Total Amount Received: $473.1M
-
-Average Interest Rate: 12%
-
-Average DTI: 13.3%
-
-Loan Quality
-
-Good Loans: 86%
-
-Applications: 33K
-
-Funded Amount: $370M
-
-Bad Loans: 14%
-
-Applications: 5K
-
-Funded Amount: $66M
-
-📊 Dashboard Pages
-1️⃣ Summary Dashboard
+🧭 Dashboard Pages
+📌 1️⃣ Summary View
 
 High-level KPIs
 
-Good vs Bad Loan comparison
+Good vs Bad loan comparison
 
-Funded amount & repayment overview
+Funded vs received amounts
 
-MoM and MTD performance tracking
+MTD & MoM growth indicators
 
-2️⃣ Overview Dashboard
+📌 2️⃣ Overview Analysis
 
-Loan trends by Month
+📊 Visual breakdown of Total Funded Amount by:
 
-Funded amount by:
+📅 Month
 
-State
+🌍 State
 
-Loan Term (36 / 60 months)
+⏳ Loan Term (36 / 60 months)
 
-Employee Length
+👨‍💼 Employee Length
 
-Purpose
+🏠 Home Ownership
 
-Home Ownership
+🎯 Loan Purpose
 
-Interactive slicers for dynamic analysis
+🎛 Interactive slicers for deep exploration
 
-3️⃣ Details Dashboard
+📌 3️⃣ Detailed View
 
-Record-level loan data
-
-Fields include:
+🔍 Row-level loan data with:
 
 Loan ID
 
@@ -106,40 +99,31 @@ Installment
 
 Amount Received
 
-🔍 Insights Generated
+💡 Key Insights
 
-Majority of loans fall under Good Loan category
+📌 Good loans dominate the portfolio
+📌 Debt Consolidation is the most common purpose
+📌 Higher Interest Rate & DTI → Higher risk
+📌 36-month loans contribute the most funding
+📌 Strong MoM growth in funding & collections
 
-Debt Consolidation is the most common loan purpose
+🚀 How to Explore
 
-Higher interest rates and DTI are linked to Charged-Off loans
+1️⃣ Clone or download the repository
+2️⃣ Open .pbix in Power BI Desktop
+3️⃣ Use slicers (State, Grade, Purpose, Loan Status)
+4️⃣ Navigate through Summary → Overview → Details
 
-36-month loans dominate funded amount
+🎯 Real-World Use Cases
 
-Strong MoM growth in funded and received amounts
+🏦 Banking & NBFC analytics
+📉 Credit risk assessment
+📊 Loan portfolio monitoring
+🧠 Management decision support
 
-🚀 How to Use
-
-Download the repository
-
-Open .pbix file in Power BI Desktop
-
-Interact with slicers (State, Grade, Purpose, Loan Status)
-
-Explore insights across Summary, Overview & Details pages
-
-📌 Use Cases
-
-Banking & NBFC loan monitoring
-
-Credit risk analysis
-
-Portfolio performance tracking
-
-Management & stakeholder reporting
-
-📬 Contact
+👤 About Me
 
 Gaurav Pandwar
-Aspiring Data Analyst | Power BI | SQL | Python
+📊 Aspiring Data Analyst
+💡 Power BI | SQL | Python | Excel
 📍 India
